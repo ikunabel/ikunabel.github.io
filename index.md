@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Ábel Ilyés-Kun
@@ -6,7 +5,9 @@ title: Ábel Ilyés-Kun
 
 # Ábel Ilyés-Kun
 
-![cjdh_busking.jpeg](./images/cjdh_busking.jpeg)
+<p align="center">
+  <img src="./images/cjdh_busking.jpeg" alt="Portrait" width="250"/>
+</p>
 
 ## About Me
 
@@ -82,13 +83,18 @@ Received DUO-Korea Scholarship
 
 ---
 
-![RWTH_Logo_3.svg.png](./images/RWTH_Logo_3.svg.png)  
+<p align="center">
+  <img src="./images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="180"/>
+</p> 
 **RWTH Aachen University** MSc Computer Science, AI Track  
 *October 2023 – Present*
 
 ---
 
-![RWTH_Logo_3.svg.png](./images/RWTH_Logo_3.svg.png)  
+<p align="center">
+  <img src="./images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="180"/>
+</p>
+
 **RWTH Aachen University** BSc Computer Science  
 *October 2019 – June 2023*  
 Thesis on hyperparameter optimization at Forschungszentrum Jülich. Other projects: neuro-inspired computing, microcontroller programming, and autonomous model vehicle control.
