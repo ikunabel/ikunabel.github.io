@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Ábel Ilyés-Kun
@@ -5,7 +6,7 @@ title: Ábel Ilyés-Kun
 
 # Ábel Ilyés-Kun
 
-![cjdh_busking.jpeg](./cjdh_busking.jpeg)
+![cjdh_busking.jpeg](./images/cjdh_busking.jpeg)
 
 ## About Me
 
@@ -74,20 +75,20 @@ Intro to project management (Scrum), exposure to JIRA-based company projects.
 
 # Education
 
-![KAIST_logo.png](./KAIST_logo.svg.png)  
+![KAIST_logo.png](./images/KAIST_logo.svg.png)  
 **KAIST MSc** Computer Science Exchange, AI Track  
 *September 2024 – December 2024*  
 Received DUO-Korea Scholarship
 
 ---
 
-![RWTH_Logo_3.svg.png](./RWTH_Logo_3.svg.png)  
+![RWTH_Logo_3.svg.png](./images/RWTH_Logo_3.svg.png)  
 **RWTH Aachen University** MSc Computer Science, AI Track  
 *October 2023 – Present*
 
 ---
 
-![RWTH_Logo_3.svg.png](./RWTH_Logo_3.svg.png)  
+![RWTH_Logo_3.svg.png](./images/RWTH_Logo_3.svg.png)  
 **RWTH Aachen University** BSc Computer Science  
 *October 2019 – June 2023*  
 Thesis on hyperparameter optimization at Forschungszentrum Jülich. Other projects: neuro-inspired computing, microcontroller programming, and autonomous model vehicle control.
@@ -101,5 +102,4 @@ Thesis on hyperparameter optimization at Forschungszentrum Jülich. Other projec
 
 # Skills
 
-- See attached CSV files (not included in Markdown).
 
