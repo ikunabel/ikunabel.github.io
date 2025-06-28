@@ -11,7 +11,7 @@ title: Ábel Ilyés-Kun
 ## About Me
 
 **Born**: 26 September 1999  
-📞 **+**491726448760  
+📞 00491726448760  
 ✉️ ikunabel@gmail.com  
 **Instagram**: @ikunabel  
 🇩🇪 Aachen, Germany
@@ -75,7 +75,7 @@ Intro to project management (Scrum), exposure to JIRA-based company projects.
 
 # Education
 
-![KAIST_logo.png](./images/KAIST_logo.svg.png)  
+![KAIST_logo.png](./images/KAIST_logo.png)  
 **KAIST MSc** Computer Science Exchange, AI Track  
 *September 2024 – December 2024*  
 Received DUO-Korea Scholarship
