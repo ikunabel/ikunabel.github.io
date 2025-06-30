@@ -87,7 +87,7 @@ theme: jekyll-theme-cayman
       <h3>🧠 Thesis at Institute for Computational and Systems Neuroscience</h3>
       <p><em>October 2022 – May 2023</em></p>
       <p>
-        Bachelor’s thesis on hyper-parameter optimization using <strong>Optuna</strong>. The goal here was to optimize the hyper-parameters of a spiking neural network simulator with  <strong>Optuna</strong>. The work involved parallel computation on the <strong>JURECA</strong> cluster and experimentation with sampling algorithms (TPE, random).
+        Bachelor’s thesis on hyper-parameter optimization: The goal here was to optimize the hyper-parameters of a spiking neural network simulator with  <strong>Optuna</strong>. The work involved parallel computation on the <strong>JURECA</strong> cluster and experimentation with sampling algorithms (TPE, random).
       </p>
 
       <hr/>
