@@ -3,15 +3,14 @@ layout: default
 theme: jekyll-theme-cayman
 ---
 
-<div style="max-width: 1800px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
+<div style="max-width: 2000px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
 
 <h1>Ábel Ilyés-Kun</h1>
 
   <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2em;">
-    <img src="./images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="220" 
+    <img src="./images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="240" 
          style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <div style="margin-left: 20px;">
-      <h2 style="border-bottom: none; margin-bottom: 0.5em;">About Me</h2>
       <p>
         I am Ábel, a computer science graduate from RWTH Aachen University.
         My academic interests include AI for music generation, natural language processing, and computational neuroscience.
@@ -62,7 +61,7 @@ theme: jekyll-theme-cayman
     <!-- MAIN CONTENT -->
     <div style="flex: 3 1 600px; min-width: 300px;">
 
-      <h2>Research and Projects</h2>
+      <h1>Research and Projects</h1>
 
       <h3>🎹 Generating MIDI Piano Performance with Transformers</h3>  
       <p><em>Summer 2025</em></p>
@@ -95,7 +94,7 @@ theme: jekyll-theme-cayman
 
       <hr/>
 
-      <h2>Work Experience</h2>
+      <h1>Work Experience</h1>
 
       <h3>Tutor at Research Group for Programming Languages and Verification</h3>  
       <p><em>October 2021 – March 2022, October 2022 – March 2023</em></p>
@@ -109,7 +108,7 @@ theme: jekyll-theme-cayman
         Intro to Scrum-based project management. Observed live JIRA workflows.
       </p>
 
-      <h2>Education</h2>
+      <h1>Education</h1>
 
       <p>
         <img src="./images/KAIST_logo.png" alt="Kaist Logo" width="80"/>
@@ -144,7 +143,7 @@ theme: jekyll-theme-cayman
 
       <hr/>
 
-      <h2>Programming Stack</h2>
+      <h1>Programming Stack</h1>
 
       <p><strong>Languages &amp; Tools</strong><br/>
       Python, C++, Java, C#, SQL, Bash, Git, Linux, Slurm</p>
