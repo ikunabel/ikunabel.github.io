@@ -143,7 +143,7 @@ layout: default
   Python, C++, Java, C#, SQL, Bash, Git, Linux, Slurm
 
   **Machine Learning & Deep Learning**  
-  PyTorch, NumPy, pandas, Matplotlib, Optuna, Jupyter
+  PyTorch, NumPy, Pandas, Matplotlib, Optuna, Jupyter
 
   </div>
 </div>
