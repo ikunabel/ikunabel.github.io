@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Ábel Ilyés-Kun
+<h1>Ábel Ilyés-Kun</h1>
 
 <div style="max-width: 1600px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
 
@@ -24,7 +24,7 @@ layout: default
 
     <!-- LEFT SIDEBAR -->
     <div style="flex: 1 1 250px; max-width: 300px;">
-      <h3>Contact & Personal Info</h3>
+      <h3>Contact &amp; Personal Info</h3>
       <ul>
         <li>Born: 26 September 1999</li>
         <li>📞 00491726448760</li>
@@ -61,81 +61,95 @@ layout: default
     <!-- MAIN CONTENT -->
     <div style="flex: 3 1 600px; min-width: 300px;">
 
-      ## Research and Projects
+      <h2>Research and Projects</h2>
 
-      ### 🎹 Generating MIDI Piano Performance with Transformers  
-      *Summer 2025*  
-      As part of a university lab project under the Computer Vision Chair, I am currently working on generating MIDI piano performances conditioned on MIDI input. We use REMI tokenization and train **Mistral** models on the MAESTRO dataset. Our focus now lies in benchmarking our results against a recent **Llama**-based model with a custom embedding function and attention block called **Moonbeam**. The project involves hands-on experimentation with model architectures, tokenizers, embedding functions and evaluation metrics.
+      <h3>🎹 Generating MIDI Piano Performance with Transformers</h3>  
+      <p><em>Summer 2025</em></p>
+      <p>
+        As part of a university lab project under the Computer Vision Chair, I am currently working on generating MIDI piano performances conditioned on MIDI input. We use REMI tokenization and train <strong>Mistral</strong> models on the MAESTRO dataset. Our focus now lies in benchmarking our results against a recent <strong>Llama</strong>-based model with a custom embedding function and attention block called <strong>Moonbeam</strong>. The project involves hands-on experimentation with model architectures, tokenizers, embedding functions and evaluation metrics.
+      </p>
 
-      ### 🐍 Mamba State-space Model  
-      *Summer 2024*  
-      Over the past summer at my home university, I participated in a research seminar at the Machine Learning and Reasoning chair involving **Mamba**, a recent state-space model. The experience sparked my interest in continuing to explore state-space models on music data! Since Mamba-variants can process extremely long sequences more efficiently than Transformers, it can be interesting to see how they handle long temporal dependencies in music data.
+      <h3>🐍 Mamba State-space Model</h3>  
+      <p><em>Summer 2024</em></p>
+      <p>
+        Over the past summer at my home university, I participated in a research seminar at the Machine Learning and Reasoning chair involving <strong>Mamba</strong>, a recent state-space model. The experience sparked my interest in continuing to explore state-space models on music data! Since Mamba-variants can process extremely long sequences more efficiently than Transformers, it can be interesting to see how they handle long temporal dependencies in music data.
+      </p>
 
-      ### 🎵 Computer-generated Music  
-      During my bachelor degree at RWTH Aachen University, I did a seminar on computer-generated music, where I covered recent neural-network-based approaches like Google Magenta or the Bachbot, also discussing the **LZ** compression algorithm within the OpenMusic software.
+      <h3>🎵 Computer-generated Music</h3>
+      <p>
+        During my bachelor degree at RWTH Aachen University, I did a seminar on computer-generated music, where I covered recent neural-network-based approaches like Google Magenta or the Bachbot, also discussing the <strong>LZ</strong> compression algorithm within the OpenMusic software.
+      </p>
 
-      ### 🧠 Thesis at Institute for Computational and Systems Neuroscience  
-      *October 2022 – May 2023*  
-      Bachelor’s thesis on hyper-parameter optimization using **Optuna**. Work involved parallel computation on the **JURECA** cluster and experimentation with sampling algorithms (TPE, random, evolutionary).
+      <h3>🧠 Thesis at Institute for Computational and Systems Neuroscience</h3>
+      <p><em>October 2022 – May 2023</em></p>
+      <p>
+        Bachelor’s thesis on hyper-parameter optimization using <strong>Optuna</strong>. Work involved parallel computation on the <strong>JURECA</strong> cluster and experimentation with sampling algorithms (TPE, random, evolutionary).
+      </p>
 
-      ### 🚙 Practical at Cyber-Physical Mobility Lab  
-      *October 2021 – February 2022*  
-      Implemented trajectory planning and collision avoidance for model vehicles. Scrum-based workflow in a team of six using Git.
+      <h3>🚙 Practical at Cyber-Physical Mobility Lab</h3>  
+      <p><em>October 2021 – February 2022</em></p>
+      <p>
+        Implemented trajectory planning and collision avoidance for model vehicles. Scrum-based workflow in a team of six using Git.
+      </p>
 
-      ## Work Experience
+      <h2>Work Experience</h2>
 
-      ### Tutor at Research Group for Programming Languages and Verification  
-      *October 2021 – March 2022, October 2022 – March 2023*  
-      Taught weekly classes (~15 students), graded coding assignments and exams. Topics: Java, Haskell, Prolog, Verification.
+      <h3>Tutor at Research Group for Programming Languages and Verification</h3>  
+      <p><em>October 2021 – March 2022, October 2022 – March 2023</em></p>
+      <p>
+        Taught weekly classes (~15 students), graded coding assignments and exams. Topics: Java, Haskell, Prolog, Verification.
+      </p>
 
-      ### Internship at BWI GmbH  
-      *March 2020*  
-      Intro to Scrum-based project management. Observed live JIRA workflows.
+      <h3>Internship at BWI GmbH</h3>
+      <p><em>March 2020</em></p>
+      <p>
+        Intro to Scrum-based project management. Observed live JIRA workflows.
+      </p>
 
-      ## Education
+      <h2>Education</h2>
 
       <p>
         <img src="./images/KAIST_logo.png" alt="Kaist Logo" width="80"/>
       </p> 
 
-      **KAIST** MSc Computer Science Exchange, AI Track  
-      *September 2024 – December 2024*  
-      Received DUO-Korea Scholarship
+      <p><strong>KAIST</strong> MSc Computer Science Exchange, AI Track<br/>
+      <em>September 2024 – December 2024</em><br/>
+      Received DUO-Korea Scholarship</p>
 
-      ---
+      <hr/>
 
       <p>
         <img src="./images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
       </p> 
 
-      **RWTH Aachen University** MSc Computer Science, AI Track  
-      *October 2023 – Present*
+      <p><strong>RWTH Aachen University</strong> MSc Computer Science, AI Track<br/>
+      <em>October 2023 – Present</em></p>
 
-      ---
+      <hr/>
 
       <p>
         <img src="./images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
       </p>
 
-      **RWTH Aachen University** BSc Computer Science  
-      *October 2019 – June 2023*  
-      - Thesis at Forschungszentrum Jülich on hyperparameter optimization  
-      - Projects on neuro-inspired computing, microcontroller programming, and model vehicle control
+      <p><strong>RWTH Aachen University</strong> BSc Computer Science<br/>
+      <em>October 2019 – June 2023</em><br/>
+      - Thesis at Forschungszentrum Jülich on hyperparameter optimization<br/>
+      - Projects on neuro-inspired computing, microcontroller programming, and model vehicle control</p>
 
-      ---
+      <hr/>
 
-      **Goethe Gymnasium Bad Ems** A levels (Abitur)  
-      - GPA: 1.6  
-      - Majors: English, Mathematics, Physics  
-      - DPG Abitur Prize in Physics
+      <p><strong>Goethe Gymnasium Bad Ems</strong> A levels (Abitur)<br/>
+      - GPA: 1.6<br/>
+      - Majors: English, Mathematics, Physics<br/>
+      - DPG Abitur Prize in Physics</p>
 
-      ## Programming Stack
+      <h2>Programming Stack</h2>
 
-      **Languages & Tools**  
-      Python, C++, Java, C#, SQL, Bash, Git, Linux, Slurm
+      <p><strong>Languages &amp; Tools</strong><br/>
+      Python, C++, Java, C#, SQL, Bash, Git, Linux, Slurm</p>
 
-      **Machine Learning & Deep Learning**  
-      PyTorch, NumPy, Pandas, Matplotlib, Optuna, Jupyter
+      <p><strong>Machine Learning &amp; Deep Learning</strong><br/>
+      PyTorch, NumPy, Pandas, Matplotlib, Optuna, Jupyter</p>
 
     </div>
   </div>
