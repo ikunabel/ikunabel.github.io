@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Ábel Ilyés-Kun
 theme: jekyll-theme-cayman
-css: design.css
 ---
 
-<div style="max-width: 1600px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
+<div style="max-width: 1800px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
+
+<h1>Ábel Ilyés-Kun</h1>
 
   <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2em;">
-    <img src="./images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="200" 
+    <img src="./images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="220" 
          style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <div style="margin-left: 20px;">
       <h2 style="border-bottom: none; margin-bottom: 0.5em;">About Me</h2>
@@ -93,6 +93,8 @@ css: design.css
         Implemented trajectory planning and collision avoidance for model vehicles. Scrum-based workflow in a team of six using Git.
       </p>
 
+      <hr/>
+
       <h2>Work Experience</h2>
 
       <h3>Tutor at Research Group for Programming Languages and Verification</h3>  
@@ -117,16 +119,12 @@ css: design.css
       <em>September 2024 – December 2024</em><br/>
       Received DUO-Korea Scholarship</p>
 
-      <hr/>
-
       <p>
         <img src="./images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
       </p> 
 
       <p><strong>RWTH Aachen University</strong> MSc Computer Science, AI Track<br/>
       <em>October 2023 – Present</em></p>
-
-      <hr/>
 
       <p>
         <img src="./images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
@@ -143,6 +141,8 @@ css: design.css
       - GPA: 1.6<br/>
       - Majors: English, Mathematics, Physics<br/>
       - DPG Abitur Prize in Physics</p>
+
+      <hr/>
 
       <h2>Programming Stack</h2>
 
