@@ -4,7 +4,7 @@ layout: default
 
 # Ábel Ilyés-Kun
 
-<div style="max-width: 2000px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
+<div style="max-width: 1600px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
 
   <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2em;">
     <img src="./images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="160" 
