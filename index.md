@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Ábel Ilyés-Kun
+theme: jekyll-theme-cayman
+css: design.css
 ---
-
-<h1>Ábel Ilyés-Kun</h1>
 
 <div style="max-width: 1600px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
 
