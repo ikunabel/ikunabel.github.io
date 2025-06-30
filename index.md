@@ -8,7 +8,7 @@ css: design.css
 <div style="max-width: 1600px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
 
   <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2em;">
-    <img src="./images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="160" 
+    <img src="./images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="200" 
          style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <div style="margin-left: 20px;">
       <h2 style="border-bottom: none; margin-bottom: 0.5em;">About Me</h2>
