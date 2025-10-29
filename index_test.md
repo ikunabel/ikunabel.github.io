@@ -1,9 +1,3 @@
----
-layout: default
----
-
-# Ábel Ilyés-Kun
-
 <!-- <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 2em;">
   <img src="./images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="160" style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 
