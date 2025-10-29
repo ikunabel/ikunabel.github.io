@@ -48,7 +48,7 @@ layout: default
   ### Languages
   - **German** (native)  
   - **Hungarian** (native)  
-  - **English** (advanced)  
+  - **English** (professional)  
   - **French** (intermediate)  
   - **Romanian** (elementary)
 
@@ -57,7 +57,7 @@ layout: default
   - Rowing Club Bad Ems (2016–2019)
 
   ### Interests
-  - Computer Music  
+  - Music Information Retrieval  
   - Natural Language Processing  
   - Jazz Piano  
   - Video and Music Editing  
@@ -71,16 +71,22 @@ layout: default
 
   ## Research and Projects
 
+  ### 🎹 Real-Time Human-AI Cooperative Jamming 
+  *Fall 2025*
+  I am currently pursuing my master’s thesis at the Chair for **Artificial Intelligence Methodology** at RWTH Aachen. The goal is to develop a real-time system for both educational and creative applications where a human musician cooperates with the agent on a MIDI instrument, e.g., the Yamaha Disklavier. Inspired by recent real-time music generation projects like jam_bot and ReaLchords, this work aims to enable planned improvisation: given a Jazz standard or a pop song, the system will interactively accompany the performer by generating harmonies for a played melody, or conversely, by providing melodic lines over harmonies played by the user.
+
+
   ### 🎹 Generating MIDI Piano Performance with Transformers  
   *Summer 2025*  
-  As part of a university lab project under the Computer Vision Chair, I am currently working on generating MIDI piano performances conditioned on MIDI input. We use REMI tokenization and train **Mistral** models on the MAESTRO dataset. Our focus now lies in benchmarking our results against a recent **Llama**-based model with a custom embedding function and attention block called **Moonbeam**. The project involves hands-on experimentation with model architectures, tokenizers, embedding functions and evaluation metrics.
+  **Our paper was accepted at the NeurIPS 2025 Workshop on AI for Music: Where Creativity Meets Computation!**
+  As part of a university lab project, I worked on generating MIDI piano performances with Transformers. We systematically compared different datasets, model architectures, model sizes, and training strategies to evaluate their impact on generative quality. To support model development and evaluation, we examined a range of quantitative metrics and analyzed how well they correlate with human judgment collected through listening studies. Our best-performing model, a 950M-parameter transformer trained on 80K MIDI files from diverse genres, produces outputs that are often rated as human-composed in a Turing-style listening survey.
 
   ### 🐍 Mamba State-space Model  
   *Summer 2024*  
   Over the past summer at my home university, I participated in a research seminar at the Machine Learning and Reasoning chair involving **Mamba**, a recent state-space model. The experience sparked my interest in continuing to explore state-space models on music data! Since Mamba-variants can process extremely long sequences more efficiently than Transformers, it can be interesting to see how they handle long temporal dependencies in music data.
 
   ### 🎵 Computer-generated Music  
-  During my bachelor degree at RWTH Aachen University, I did a seminar on computer-generated music, where I covered recent neural-network-based approaches like Google Magenta or the Bachbot, also discussing the **LZ** compression algorithm within the OpenMusic software.
+  During my bachelor degree at RWTH Aachen University, I did a seminar on computer-generated music, where I covered recent neural-network-based approaches like Google Magenta or the Bachbot, also discussing the **LZ** compression algorithm within the **OpenMusic** software.
 
   ### 🧠 Thesis at Institute for Computational and Systems Neuroscience  
   *October 2022 – May 2023*  
@@ -132,8 +138,7 @@ layout: default
 
   ---
 
-  **Goethe Gymnasium Bad Ems** A levels (Abitur)  
-  - GPA: 1.6  
+  **Goethe Gymnasium Bad Ems** A levels (Abitur)
   - Majors: English, Mathematics, Physics  
   - DPG Abitur Prize in Physics
 
