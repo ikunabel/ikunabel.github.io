@@ -1,4 +1,4 @@
-![Ábel Ilyés-Kun](images/cjdh_busking.jpeg){: width="160" style="border-radius:50%; box-shadow:0 4px 8px rgba(0,0,0,0.1);" }
+![Ábel Ilyés-Kun](/assets/images/cjdh_busking.jpeg){: width="160" style="border-radius:50%; box-shadow:0 4px 8px rgba(0,0,0,0.1);" }
 
 # About Me
 
