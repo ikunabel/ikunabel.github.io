@@ -88,7 +88,7 @@
   ## Education
 
   <p>
-    <img src="./images/KAIST_logo.png" alt="Kaist Logo" width="80"/>
+    <img src="assets/images/KAIST_logo.png" alt="Kaist Logo" width="80"/>
   </p> 
 
   **KAIST** MSc Computer Science Exchange, AI Track  
@@ -98,7 +98,7 @@
   ---
 
   <p>
-    <img src="./images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
+    <img src="assets/images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
   </p> 
 
   **RWTH Aachen University** MSc Computer Science, AI Track  
@@ -107,7 +107,7 @@
   ---
 
   <p>
-    <img src="./images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
+    <img src="assets/images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
   </p>
 
   **RWTH Aachen University** BSc Computer Science  
