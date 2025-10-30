@@ -32,13 +32,21 @@
       </p>
 
       <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 2em;">
-        <img src="./assets/images/Confusion_Matrix.png" alt="Confusion Matrix" width="135"
-       style="border-radius: 8px; object-fit: cover; flex-shrink: 0;" />
-        <div style="flex: 1 1 300px;">
-          <p><em>Summer 2025</em></p>
-          <p>... your text ...</p>
-        </div>
+  
+      <!-- Image -->
+      <img src="./assets/images/Confusion_Matrix.png" alt="Confusion Matrix" width="135"
+          style="border-radius: 8px; object-fit: cover; flex-shrink: 0;" />
+
+      <!-- Content (title, date, text) -->
+      <div style="flex: 1 1 300px;">
+        <h3>🎹 Generating MIDI Piano Performance with Transformers</h3>
+        <p><em>Summer 2025</em></p>
+        <p>
+          <strong>Our paper was accepted at the NeurIPS 2025 Workshop on AI for Music: Where Creativity Meets Computation!</strong>
+          As part of a university lab project, I worked on generating MIDI piano performances with Transformers. We systematically compared different datasets, model architectures, model sizes, and training strategies to evaluate their impact on generative quality. To support model development and evaluation, we examined a range of quantitative metrics and analyzed how well they correlate with human judgment collected through listening studies. Our best-performing model, a 950M-parameter transformer trained on 80K MIDI files from diverse genres, produces outputs that are often rated as human-composed in a Turing-style listening survey.
+        </p>
       </div>
+    </div>
 
       <hr/>
 
