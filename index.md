@@ -10,10 +10,10 @@ theme: jekyll-theme-cayman
          style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <div style="margin-left: 20px;">
       <p>
-        I am Ábel, a computer science graduate from RWTH Aachen University.
+        <!-- I am Ábel, a computer science graduate from RWTH Aachen University.
         My academic interests include AI for music generation, natural language processing, and computational neuroscience.
         Beyond my studies, I am passionate about playing the piano and enjoy transcribing recordings from my favorite musicians,
-        Brad Mehldau and Chick Corea.
+        Brad Mehldau and Chick Corea. -->
       </p>
     </div>
   </div>
