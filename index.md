@@ -24,9 +24,9 @@ theme: jekyll-theme-cayman
     <div style="flex: 1 1 250px; max-width: 300px;">
       <h3>Contact</h3>
       <ul>
-        <li>💼 <a href="https://github.com/ikunabel" target="_blank">GitHub</a></li>
-        <li>💼 <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank">LinkedIn</a></li>
-        <li>✉️ <a href="mailto:ikunabel@gmail.com">ikunabel@gmail.com</a></li>
+        <li> <a href="https://github.com/ikunabel" target="_blank">GitHub</a></li>
+        <li> <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank">LinkedIn</a></li>
+        <li> <a href="mailto:ikunabel@gmail.com">ikunabel@gmail.com</a></li>
         <li>🇩🇪 Aachen, Germany</li>
       </ul>
 
@@ -118,7 +118,7 @@ theme: jekyll-theme-cayman
       <h1>Education</h1>
 
       <p>
-        <img src="./assets/images/KAIST_logo.png" alt="Kaist Logo" width="80"/>
+        <img src="./assets/images/KAIST_logo.png" alt="Kaist Logo" width="75"/>
       </p> 
 
       <p><strong>KAIST</strong> MSc Computer Science Exchange, AI Track<br/>
@@ -137,7 +137,7 @@ theme: jekyll-theme-cayman
       <hr/>
 
       <p>
-        <img src="./assets//RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
+        <img src="./assets/images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
       </p>
 
       <p><strong>RWTH Aachen University</strong> BSc Computer Science<br/>
