@@ -10,10 +10,10 @@ theme: jekyll-theme-cayman
          style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <div style="margin-left: 20px;">
       <p>
-        <!-- I am Ábel, a computer science graduate from RWTH Aachen University.
+        I am Ábel, a computer science graduate from RWTH Aachen University.
         My academic interests include AI for music generation, natural language processing, and computational neuroscience.
         Beyond my studies, I am passionate about playing the piano and enjoy transcribing recordings from my favorite musicians,
-        Brad Mehldau and Chick Corea. -->
+        Brad Mehldau and Chick Corea.
       </p>
     </div>
   </div>
@@ -65,10 +65,29 @@ theme: jekyll-theme-cayman
       <h3>🎹 Generating MIDI Piano Performance with Transformers</h3>  
       <p><em>Summer 2025</em></p>
       <p>
-        As part of a university lab project under the Computer Vision Chair, I am currently working on generating MIDI piano performances conditioned on MIDI input. We use REMI tokenization and train <strong>Mistral</strong> models on the MAESTRO dataset. Our focus now lies in benchmarking our results against a recent <strong>Llama</strong>-based model with a custom embedding function and attention block called <strong>Moonbeam</strong>. The project involves hands-on experimentation with model architectures, tokenizers, embedding functions and evaluation metrics.
+        <img src="./assets/images/Confusion_Matrix.png" alt="Confusion Matrix" width="135"/>
+      </p>
+      <p>
+        <strong>Our paper was accepted at the NeurIPS 2025 Workshop on AI for Music: Where Creativity Meets Computation!</strong>
+        As part of a university lab project, I worked on generating MIDI piano performances with Transformers. We systematically compared different datasets, model architectures, model sizes, and training strategies to evaluate their impact on generative quality. To support model development and evaluation, we examined a range of quantitative metrics and analyzed how well they correlate with human judgment collected through listening studies. Our best-performing model, a 950M-parameter transformer trained on 80K MIDI files from diverse genres, produces outputs that are often rated as human-composed in a Turing-style listening survey.
+      </p>
+
+      <h3>🎹 Real-Time Human-AI Cooperative Jamming</h3>  
+      <p><em>Fall 2025</em></p>
+      <p>
+        I am currently pursuing my master’s thesis at the Chair for Artificial Intelligence Methodology at RWTH Aachen. The goal is to develop a <strong>real-time</strong> system for both educational and creative applications where a human musician cooperates with the agent on a MIDI instrument, e.g., the Yamaha Disklavier. Inspired by recent real-time music generation projects like <strong>jam_bot</strong> and <strong>ReaLchords</strong>, this work aims to enable planned improvisation: given a Jazz standard or a pop song, the system will interactively accompany the performer by generating harmonies for a played melody, or conversely, by providing melodic lines over harmonies played by the user.
       </p>
 
       <hr/>
+
+      <h3>VR Game for Learning Git</h3>  
+      <p><em>Summer 2025</em></p>
+      <p>
+        <img src="./assets/images/Git_Immersive_Learning_Presentation.png" alt="VR_Git" width="150"/>
+      </p>
+      <p>
+        Co-developed a 3D VR game in Unity to teach git in an interactive, hands-on environment. Branches are represented as color-coded shelves, and files as items that can be put on the shelves (e.g., cubes for .py, books for .docx), allowing students to visualize and experiment with core git commands like add, commit, merge, and push. The user can trigger git commands from a UI panel with the VR controller and observe the effect in the immersive environment. The game provides a risk-free space to build mental models, reinforce correct workflows, and reduce fear of mistakes, preparing learners for real-world git projects.
+      </p>
 
       <h3>🐍 Mamba State-space Model</h3>  
       <p><em>Summer 2024</em></p>
