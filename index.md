@@ -13,14 +13,30 @@
         <a href="mailto:ikunabel@gmail.com">Email</a> |
         <a href="https://github.com/ikunabel" target="_blank">GitHub</a> |
         <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank">LinkedIn</a> |
-        <a href="/assets/docs/CV_for_Sony.pdf" target="_blank">CV</a>
+        <a href="/assets/docs/CV.pdf" target="_blank">CV</a>
       </p>  
     </div>
   </div>
 
   <div style="max-width: 900px; margin: 0 auto;">
 
+      <h2>News</h2>
+        <ul>
+          <li><span style="color: red;">[September 2025]</span> My co-authored paper "Generating Piano Music with Transformers: A Comparative Study of Scale, Data and Metrics" was accepted at the <a href="https://github.com/ikunabel" target="_blank">NeurIPS 2025 Workshop on AI for Music</a>! </li>
+          <li>Second item</li>
+          <li>Third item</li>
+        </ul>
+
+
       <h1>Research and Projects</h1>
+
+      <h3>🎹 Real-Time Human-AI Cooperative Jamming</h3>  
+      <p><em>Fall 2025</em></p>
+      <p>
+        I am currently pursuing my master’s thesis at the Chair for Artificial Intelligence Methodology of RWTH Aachen. The goal is to develop a ,<strong>real-time</strong> system for both educational and creative applications where a human musician cooperates with the agent on a MIDI instrument, e.g., the <strong>Yamaha Disklavier</strong>. Inspired by recent real-time music generation projects like jam_bot and ReaLchords, this work aims to enable <strong>planned improvisation</strong>: given a Jazz lead sheet, the system will interactively accompany the performer by generating harmonies for a played melody, or conversely, by providing melodic lines over harmonies played by the user.
+      </p>
+
+      <hr/>
 
       <h3>🎹 Generating MIDI Piano Performance with Transformers</h3>  
       <p><em>Summer 2025</em></p>
@@ -28,7 +44,6 @@
         <img src="./assets/images/Confusion_Matrix.png" alt="Confusion Matrix" width="200"/>
       </p>
       <p>
-        <strong>Our paper was accepted at the NeurIPS 2025 Workshop on AI for Music: Where Creativity Meets Computation!</strong>
         As part of a university lab project, I worked on generating MIDI piano performances with Transformers. We systematically compared different datasets, model architectures, model sizes, and training strategies to evaluate their impact on generative quality. To support model development and evaluation, we examined a range of quantitative metrics and analyzed how well they correlate with human judgment collected through listening studies. Our best-performing model, a 950M-parameter transformer trained on 80K MIDI files from diverse genres, produces outputs that are often rated as human-composed in a Turing-style listening survey.
       </p>
 
