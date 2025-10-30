@@ -8,11 +8,12 @@
         I am Ábel, a computer science graduate from RWTH Aachen University.
         My academic interests include AI for music generation, natural language processing, and computational neuroscience.
         Beyond my studies, I am passionate about playing the piano and enjoy transcribing recordings from my favorite musicians,
-        Brad Mehldau and Chick Corea.<br/><br/>
+        Brad Mehldau and Chick Corea.
+        <br/><br/>
         <a href="mailto:ikunabel@gmail.com">Email</a> |
-        <a href="https://github.com/ikunabel" target="_blank">GitHub</a><br/> | 
+        <a href="https://github.com/ikunabel" target="_blank">GitHub</a><br/> |
         <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank">LinkedIn</a><br/>
-      </p>    
+      </p>  
     </div>
   </div>
 
@@ -29,6 +30,15 @@
         <strong>Our paper was accepted at the NeurIPS 2025 Workshop on AI for Music: Where Creativity Meets Computation!</strong>
         As part of a university lab project, I worked on generating MIDI piano performances with Transformers. We systematically compared different datasets, model architectures, model sizes, and training strategies to evaluate their impact on generative quality. To support model development and evaluation, we examined a range of quantitative metrics and analyzed how well they correlate with human judgment collected through listening studies. Our best-performing model, a 950M-parameter transformer trained on 80K MIDI files from diverse genres, produces outputs that are often rated as human-composed in a Turing-style listening survey.
       </p>
+
+      <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 2em;">
+        <img src="./assets/images/Confusion_Matrix.png" alt="Confusion Matrix" width="135"
+       style="border-radius: 8px; object-fit: cover; flex-shrink: 0;" />
+        <div style="flex: 1 1 300px;">
+          <p><em>Summer 2025</em></p>
+          <p>... your text ...</p>
+        </div>
+      </div>
 
       <hr/>
 
@@ -59,13 +69,6 @@
 
       <hr/>
 
-      <h3>🎵 Computer-generated Music</h3>
-      <p>
-        During my bachelor degree at RWTH Aachen University, I did a seminar on computer-generated music, where I covered recent neural-network-based approaches like Google Magenta or the Bachbot, also discussing the <strong>LZ</strong> compression algorithm within the OpenMusic software.
-      </p>
-
-      <hr/>
-
       <h3>🧠 Thesis at Institute for Computational and Systems Neuroscience</h3>
       <p><em>October 2022 – May 2023</em></p>
       <p>
@@ -78,6 +81,14 @@
       <p><em>October 2021 – February 2022</em></p>
       <p>
         Implemented trajectory planning and collision avoidance for model vehicles. Scrum-based workflow in a team of six using Git.
+      </p>
+
+      <hr/>
+
+      <h3>🎵 Computer-generated Music</h3>
+      <p><em>Summer 2020</em></p>
+      <p>
+        During my bachelor degree at RWTH Aachen University, I did a seminar on computer-generated music, where I covered recent neural-network-based approaches like Google Magenta or the Bachbot, also discussing the <strong>LZ</strong> compression algorithm within the OpenMusic software.
       </p>
 
 
@@ -154,7 +165,7 @@
       <br/><br/>
 
 
-      <h3>Societies</h3>
+      <h1>Societies</h1>
       <ul>
         <li>Member of 창작동화 Jazz Band (2024–)</li>
         <li>Rowing Club Bad Ems (2016–2019)</li>
@@ -164,7 +175,7 @@
       <br/><br/>
 
 
-      <h3>Interests</h3>
+      <h1>Interests</h1>
       <ul>
         <li>Music Information Retrieval</li>
         <li>Natural Language Processing</li>
