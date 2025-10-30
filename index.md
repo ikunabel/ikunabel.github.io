@@ -8,19 +8,15 @@
         I am Ábel, a computer science graduate from RWTH Aachen University.
         My academic interests include AI for music generation, natural language processing, and computational neuroscience.
         Beyond my studies, I am passionate about playing the piano and enjoy transcribing recordings from my favorite musicians,
-        Brad Mehldau and Chick Corea.
-      </p>
-        
-      <div style="margin-top: 10px;">
-        <a href="https://github.com/ikunabel" target="_blank" style="display: block; margin-bottom: 5px;">GitHub</a>
-        <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank" style="display: block; margin-bottom: 5px;">LinkedIn</a>
-        <a href="mailto:ikunabel@gmail.com" style="display: block;">ikunabel@gmail.com</a>
-      </div>
+        Brad Mehldau and Chick Corea.<br/><br/>
+        <a href="mailto:ikunabel@gmail.com">Email</a> |
+        <a href="https://github.com/ikunabel" target="_blank">GitHub</a><br/> | 
+        <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank">LinkedIn</a><br/>
+      </p>    
     </div>
   </div>
 
   <div style="max-width: 900px; margin: 0 auto;">
-
 
       <h1>Research and Projects</h1>
 
@@ -84,6 +80,10 @@
         Implemented trajectory planning and collision avoidance for model vehicles. Scrum-based workflow in a team of six using Git.
       </p>
 
+
+      <br/><br/>
+
+
       <h1>Work Experience</h1>
 
       <h3>Tutor at Research Group for Programming Languages and Verification</h3>  
@@ -99,6 +99,10 @@
       <p>
         Intro to Scrum-based project management. Observed live JIRA workflows.
       </p>
+
+
+      <br/><br/>
+
 
       <h1>Education</h1>
 
@@ -136,6 +140,7 @@
       - Majors: English, Mathematics, Physics<br/>
       - DPG Abitur Prize in Physics</p>
 
+      <br/><br/>
 
       <h1>Programming Stack</h1>
 
@@ -145,7 +150,9 @@
       <p><strong>Machine Learning &amp; Deep Learning</strong><br/>
       PyTorch, NumPy, Pandas, Matplotlib, Optuna, Jupyter</p>
 
-      <hr/>
+
+      <br/><br/>
+
 
       <h3>Societies</h3>
       <ul>
@@ -153,7 +160,9 @@
         <li>Rowing Club Bad Ems (2016–2019)</li>
       </ul>
 
-      <hr/>
+
+      <br/><br/>
+
 
       <h3>Interests</h3>
       <ul>
