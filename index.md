@@ -11,7 +11,7 @@
         Brad Mehldau and Chick Corea.
         <br/><br/>
         <a href="mailto:ikunabel@gmail.com">Email</a> |
-        <a href="https://github.com/ikunabel" target="_blank">GitHub</a><br/> |
+        <a href="https://github.com/ikunabel" target="_blank">GitHub</a> |
         <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank">LinkedIn</a> |
         <a href="#" target="_blank">CV</a> <!-- placeholder link -->
       </p>  
@@ -25,7 +25,7 @@
       <h3>🎹 Generating MIDI Piano Performance with Transformers</h3>  
       <p><em>Summer 2025</em></p>
       <p>
-        <img src="./assets/images/Confusion_Matrix.png" alt="Confusion Matrix" width="135"/>
+        <img src="./assets/images/Confusion_Matrix.png" alt="Confusion Matrix" width="175"/>
       </p>
       <p>
         <strong>Our paper was accepted at the NeurIPS 2025 Workshop on AI for Music: Where Creativity Meets Computation!</strong>
@@ -37,7 +37,7 @@
       <h3>VR Game for Learning Git</h3>  
       <p><em>Summer 2025</em></p>
       <p>
-        <img src="./assets/images/Git_Immersive_Learning_Presentation.png" alt="VR_Git" width="150"/>
+        <img src="./assets/images/Git_Immersive_Learning_Presentation.png" alt="VR_Git" width="175"/>
       </p>
       <p>
         Co-developed a 3D VR game in Unity to teach git in an interactive, hands-on environment. Branches are represented as color-coded shelves, and files as items that can be put on the shelves (e.g., cubes for .py, books for .docx), allowing students to visualize and experiment with core git commands like add, commit, merge, and push. The user can trigger git commands from a UI panel with the VR controller and observe the effect in the immersive environment. The game provides a risk-free space to build mental models, reinforce correct workflows, and reduce fear of mistakes, preparing learners for real-world git projects.
