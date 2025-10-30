@@ -1,7 +1,7 @@
 <div style="max-width: 2000px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
 
   <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2em;">
-    <img src="./assets/images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="220" 
+    <img src="./assets/images/On_Stage.png.jpeg" alt="Ábel Ilyés-Kun" width="220" 
          style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <div style="margin-left: 20px;">
       <p>
@@ -23,7 +23,7 @@
       <h2>News</h2>
         <ul>
           <li><span style="color: #ff6b89ff;">[October 2025]</span> I will begin my master thesis on real-time human-AI cooperative jamming at the <a href="https://www.aim.rwth-aachen.de/" target="_blank">Chair for Artificial Intelligence Methodology (AIM)</a> at RWTH Aachen.</li>
-          
+
           <li><span style="color: #ff6b89ff;">[September 2025]</span> My co-authored paper "Generating Piano Music with Transformers: A Comparative Study of Scale, Data and Metrics" was accepted at the <a href="https://aiformusicworkshop.github.io/" target="_blank">NeurIPS 2025 Workshop on AI for Music</a>! </li>
 
           <li><span style="color: #ff6b89ff;">[September 2024]</span> I started my exchange semester at the Korean Advanced Institute of Science and Technology (KAIST). </li>
