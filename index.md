@@ -22,9 +22,9 @@
 
       <h2>News</h2>
         <ul>
-          <li><span style="color: red;">[September 2025]</span> My co-authored paper "Generating Piano Music with Transformers: A Comparative Study of Scale, Data and Metrics" was accepted at the <a href="https://github.com/ikunabel" target="_blank">NeurIPS 2025 Workshop on AI for Music</a>! </li>
-          <li>Second item</li>
-          <li>Third item</li>
+          <li><span style="color: #FFB7C5;">[October 2025]</span> I will begin my master thesis on real-time human-AI cooperative jamming at the Chair for Artificial Intelligence Methodology at RWTH Aachen.
+          <li><span style="color: #FFB7C5;">[September 2025]</span> My co-authored paper "Generating Piano Music with Transformers: A Comparative Study of Scale, Data and Metrics" was accepted at the <a href="https://aiformusicworkshop.github.io/" target="_blank">NeurIPS 2025 Workshop on AI for Music</a>! </li>
+          <li><span style="color: #FFB7C5;">[September 2024]</span> I started my exchange semester at the Korean Advanced Institute of Science and Technology (KAIST). </li>
         </ul>
 
 
@@ -33,7 +33,7 @@
       <h3>🎹 Real-Time Human-AI Cooperative Jamming</h3>  
       <p><em>Fall 2025</em></p>
       <p>
-        I am currently pursuing my master’s thesis at the Chair for Artificial Intelligence Methodology of RWTH Aachen. The goal is to develop a ,<strong>real-time</strong> system for both educational and creative applications where a human musician cooperates with the agent on a MIDI instrument, e.g., the <strong>Yamaha Disklavier</strong>. Inspired by recent real-time music generation projects like jam_bot and ReaLchords, this work aims to enable <strong>planned improvisation</strong>: given a Jazz lead sheet, the system will interactively accompany the performer by generating harmonies for a played melody, or conversely, by providing melodic lines over harmonies played by the user.
+        I am currently pursuing my master’s thesis at the Chair for Artificial Intelligence Methodology of RWTH Aachen. The goal is to develop a <strong>real-time</strong> system for both educational and creative applications where a human musician cooperates with the agent on a MIDI instrument, e.g., the <strong>Yamaha Disklavier</strong>. Inspired by recent real-time music generation projects like jam_bot and ReaLchords, this work aims to enable <strong>planned improvisation</strong>: given a Jazz lead sheet, the system will interactively accompany the performer by generating harmonies for a played melody, or conversely, by providing melodic lines over harmonies played by the user.
       </p>
 
       <hr/>
