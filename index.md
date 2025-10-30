@@ -26,7 +26,7 @@
 
           <li><span style="color: #ff6b89ff;">[September 2025]</span> My co-authored paper "Generating Piano Music with Transformers: A Comparative Study of Scale, Data and Metrics" was accepted at the <a href="https://aiformusicworkshop.github.io/" target="_blank">NeurIPS 2025 Workshop on AI for Music</a>! </li>
 
-          <li><span style="color: #ff6b89ff;">[September 2024]</span> I started my exchange semester at the Korean Advanced Institute of Science and Technology (KAIST). </li>
+          <li><span style="color: #ff6b89ff;">[September 2024]</span> I started my exchange semester at the Korean Advanced Institute of Science and Technology (KAIST) and received the DUO-Korea scholarship. </li>
         </ul>
 
 
