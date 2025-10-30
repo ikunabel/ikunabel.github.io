@@ -9,10 +9,13 @@
         My academic interests include AI for music generation, natural language processing, and computational neuroscience.
         Beyond my studies, I am passionate about playing the piano and enjoy transcribing recordings from my favorite musicians,
         Brad Mehldau and Chick Corea.
-        <a href="https://github.com/ikunabel" target="_blank">GitHub</a> |
-        <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank">LinkedIn</a> |
-        <a href="mailto:ikunabel@gmail.com">ikunabel@gmail.com</a>
       </p>
+        
+      <div style="margin-top: 10px;">
+        <a href="https://github.com/ikunabel" target="_blank" style="display: block; margin-bottom: 5px;">GitHub</a>
+        <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank" style="display: block; margin-bottom: 5px;">LinkedIn</a>
+        <a href="mailto:ikunabel@gmail.com" style="display: block;">ikunabel@gmail.com</a>
+      </div>
     </div>
   </div>
 
