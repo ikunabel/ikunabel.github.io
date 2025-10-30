@@ -1,12 +1,12 @@
----
+<!-- ---
 layout: default
 theme: jekyll-theme-cayman
----
+--- -->
 
 <div style="max-width: 2000px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
 
   <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2em;">
-    <img src="./images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="220" 
+    <img src="./assets/images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="220" 
          style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <div style="margin-left: 20px;">
       <p>
@@ -22,11 +22,11 @@ theme: jekyll-theme-cayman
 
     <!-- LEFT SIDEBAR -->
     <div style="flex: 1 1 250px; max-width: 300px;">
-      <h3>Contact &amp; Personal Info</h3>
+      <h3>Contact</h3>
       <ul>
-        <li>Born: 26 September 1999</li>
-        <li>📞 00491726448760</li>
-        <li>✉️ ikunabel@gmail.com</li>
+        <li>💼 <a href="https://github.com/ikunabel" target="_blank">GitHub</a></li>
+        <li>💼 <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank">LinkedIn</a></li>
+        <li>✉️ <a href="mailto:ikunabel@gmail.com">ikunabel@gmail.com</a></li>
         <li>🇩🇪 Aachen, Germany</li>
       </ul>
 
@@ -34,9 +34,10 @@ theme: jekyll-theme-cayman
       <ul>
         <li><strong>German</strong> (native)</li>
         <li><strong>Hungarian</strong> (native)</li>
-        <li><strong>English</strong> (advanced)</li>
+        <li><strong>English</strong> (professional)</li>
         <li><strong>French</strong> (intermediate)</li>
         <li><strong>Romanian</strong> (elementary)</li>
+        <li><strong>Dutch</strong> (elementary)</li>
       </ul>
 
       <h3>Societies</h3>
@@ -47,7 +48,7 @@ theme: jekyll-theme-cayman
 
       <h3>Interests</h3>
       <ul>
-        <li>Computer Music</li>
+        <li>Music Information Retrieval</li>
         <li>Natural Language Processing</li>
         <li>Jazz Piano</li>
         <li>Video and Music Editing</li>
@@ -117,7 +118,7 @@ theme: jekyll-theme-cayman
       <h1>Education</h1>
 
       <p>
-        <img src="./images/KAIST_logo.png" alt="Kaist Logo" width="80"/>
+        <img src="./assets/images/KAIST_logo.png" alt="Kaist Logo" width="80"/>
       </p> 
 
       <p><strong>KAIST</strong> MSc Computer Science Exchange, AI Track<br/>
@@ -127,7 +128,7 @@ theme: jekyll-theme-cayman
       <hr/>
 
       <p>
-        <img src="./images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
+        <img src="./assets/images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
       </p> 
 
       <p><strong>RWTH Aachen University</strong> MSc Computer Science, AI Track<br/>
@@ -136,7 +137,7 @@ theme: jekyll-theme-cayman
       <hr/>
 
       <p>
-        <img src="./images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
+        <img src="./assets//RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
       </p>
 
       <p><strong>RWTH Aachen University</strong> BSc Computer Science<br/>
@@ -147,7 +148,6 @@ theme: jekyll-theme-cayman
       <hr/>
 
       <p><strong>Goethe Gymnasium Bad Ems</strong> A levels (Abitur)<br/>
-      - GPA: 1.6<br/>
       - Majors: English, Mathematics, Physics<br/>
       - DPG Abitur Prize in Physics</p>
 
