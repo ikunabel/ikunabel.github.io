@@ -22,8 +22,10 @@
 
       <h2>News</h2>
         <ul>
-          <li><span style="color: #ff6b89ff;">[October 2025]</span> I will begin my master thesis on real-time human-AI cooperative jamming at the <a href="https://www.aim.rwth-aachen.de/" target="_blank">Chair for Artificial Intelligence Methodology (AIM)</a> at RWTH Aachen.
+          <li><span style="color: #ff6b89ff;">[October 2025]</span> I will begin my master thesis on real-time human-AI cooperative jamming at the <a href="https://www.aim.rwth-aachen.de/" target="_blank">Chair for Artificial Intelligence Methodology (AIM)</a> at RWTH Aachen.</li>
+          
           <li><span style="color: #ff6b89ff;">[September 2025]</span> My co-authored paper "Generating Piano Music with Transformers: A Comparative Study of Scale, Data and Metrics" was accepted at the <a href="https://aiformusicworkshop.github.io/" target="_blank">NeurIPS 2025 Workshop on AI for Music</a>! </li>
+
           <li><span style="color: #ff6b89ff;">[September 2024]</span> I started my exchange semester at the Korean Advanced Institute of Science and Technology (KAIST). </li>
         </ul>
 
