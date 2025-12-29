@@ -101,7 +101,7 @@
       <h3>Tutor at Research Group for Programming Languages and Verification</h3>  
       <p><em>October 2021 – March 2022, October 2022 – March 2023</em></p>
       <p>
-        Taught weekly classes (~15 students), graded coding assignments and exams. Tutored students in <strong>Java, Haskell, Prolog</strong>and Verification.
+        Taught weekly classes (~15 students), graded coding assignments and exams. Tutored students in <strong>Java, Haskell, Prolog</strong> and Verification.
       </p>
 
       <hr/>
