@@ -1,7 +1,7 @@
 <div style="max-width: 2000px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
 
   <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2em;">
-    <img src="./assets/images/Photo_ID.png" alt="Ábel Ilyés-Kun" width="240" 
+    <img src="./assets/images/On_Stage.png" alt="Ábel Ilyés-Kun" width="220" 
          style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <div style="margin-left: 20px;">
       <p>
@@ -13,7 +13,7 @@
         <a href="mailto:ikunabel@gmail.com">Email</a> |
         <a href="https://github.com/ikunabel" target="_blank">GitHub</a> |
         <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank">LinkedIn</a> |
-        <a href="/assets/docs/CV.pdf" target="_blank">CV</a>
+        <a href="assets/docs/CV_Abel_2026_Jan_5.pdf" target="_blank">CV</a>
       </p>  
     </div>
   </div>
@@ -35,7 +35,7 @@
       <h3>🎹 Real-Time Human-AI Cooperative Jamming</h3>  
       <p><em>Fall 2025</em></p>
       <p>
-        I am currently pursuing my master’s thesis at the Chair for Artificial Intelligence Methodology of RWTH Aachen. The goal is to develop a <strong>real-time</strong> system for both educational and creative applications where a human musician cooperates with the agent on a MIDI instrument, e.g., the <strong>Yamaha Disklavier</strong>. Inspired by recent real-time music generation projects like jam_bot and ReaLchords, this work aims to enable <strong>planned improvisation</strong>: given a Jazz lead sheet, the system will interactively accompany the performer by generating harmonies for a played melody, or conversely, by providing melodic lines over harmonies played by the user.
+        I am currently pursuing my master’s thesis at the Chair for Artificial Intelligence Methodology at RWTH Aachen, exploring real-time human-AI musical interaction on a "Yamaha Disklavier" MIDI keyboard. The goal is to fine-tune a chord accompaniment agent with reinforcement learning to generate musically sensible chords in response to a melody played by a human performer. The system aims to enable engaging jam sessions over jazz standards by reharmonizing the performer’s melody and offering multiple harmonic alternatives through an interactive user interface.
       </p>
 
       <hr/>
