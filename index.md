@@ -13,7 +13,7 @@
         <a href="mailto:ikunabel@gmail.com">Email</a> |
         <a href="https://github.com/ikunabel" target="_blank">GitHub</a> |
         <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank">LinkedIn</a> |
-        <a href="assets/docs/CV_Abel_2026_Jan_5.pdf" target="_blank">CV</a>
+        <a href="assets/docs/CV_Abel_2026_Jan_9.pdf" target="_blank">CV</a>
       </p>  
     </div>
   </div>
