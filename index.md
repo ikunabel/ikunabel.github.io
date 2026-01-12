@@ -1,7 +1,7 @@
 <div style="max-width: 2000px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
 
   <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2em;">
-    <img src="assets/images/DSC_4601_Bewerbung_uncrop_3.jpg" alt="Ábel Ilyés-Kun" width="220" 
+    <img src="{{ '/assets/images/DSC_4601_Bewerbung_uncrop_3.jpg' | relative_url }}" alt="Ábel Ilyés-Kun" width="220" 
          style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <div style="margin-left: 20px;">
       <p>
@@ -13,7 +13,7 @@
         <a href="mailto:ikunabel@gmail.com">Email</a> |
         <a href="https://github.com/ikunabel" target="_blank">GitHub</a> |
         <a href="https://www.linkedin.com/in/%C3%A1bel-ily%C3%A9s-kun-6350a3245/" target="_blank">LinkedIn</a> |
-        <a href="assets/docs/CV_Abel_2026_Jan_9.pdf" target="_blank">CV</a>
+        <a href="{{ '/assets/docs/CV_Abel_2026_Jan_9.pdf' | relative_url }}" target="_blank">CV</a>
       </p>  
     </div>
   </div>
@@ -43,7 +43,7 @@
       <h3>🎹 Generating MIDI Piano Performance with Transformers</h3>  
       <p><em>Summer 2025</em></p>
       <p>
-        <img src="./assets/images/Confusion_Matrix.png" alt="Confusion Matrix" width="200"/>
+        <img src="{{ '/assets/images/Confusion_Matrix.png' | relative_url }}" alt="Confusion Matrix" width="200"/>
       </p>
       <p>
         As part of a university lab project, I worked on generating MIDI piano performances with Transformers. We systematically compared different datasets, model architectures, model sizes, and training strategies to evaluate their impact on generative quality. To support model development and evaluation, we examined a range of quantitative metrics and analyzed how well they correlate with human judgment collected through listening studies. Our best-performing model, a 950M-parameter transformer trained on 80K MIDI files from diverse genres, produces outputs that are often rated as human-composed in a Turing-style listening survey.
@@ -54,7 +54,7 @@
       <h3>VR Game for Learning Git</h3>  
       <p><em>Summer 2025</em></p>
       <p>
-        <img src="./assets/images/Git_Immersive_Learning_Presentation.png" alt="VR_Git" width="250"/>
+        <img src="{{ '/assets/images/Git_Immersive_Learning_Presentation.png' | relative_url }}" alt="VR_Git" width="250"/>
       </p>
       <p>
         Co-developed a 3D VR game in Unity to teach git in an interactive, hands-on environment. Branches are represented as color-coded shelves, and files as items that can be put on the shelves (e.g., cubes for .py, books for .docx), allowing students to visualize and experiment with core git commands like add, commit, merge, and push. The user can trigger git commands from a UI panel with the VR controller and observe the effect in the immersive environment. The game provides a risk-free space to build mental models, reinforce correct workflows, and reduce fear of mistakes, preparing learners for real-world git projects.
@@ -119,7 +119,7 @@
       <h1>Education</h1>
 
       <p>
-        <img src="./assets/images/KAIST_logo.png" alt="Kaist Logo" width="75"/>
+        <img src="{{ '/assets/images/KAIST_logo.png' | relative_url }}" alt="Kaist Logo" width="75"/>
       </p> 
 
       <p><strong>KAIST</strong> MSc Computer Science Exchange, AI Track<br/>
@@ -129,7 +129,7 @@
       <hr/>
 
       <p>
-        <img src="./assets/images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
+        <img src="{{ '/assets/images/RWTH_Logo_3.svg.png' | relative_url }}" alt="RWTH Logo" width="135"/>
       </p> 
 
       <p><strong>RWTH Aachen University</strong> MSc Computer Science, AI Track<br/>
@@ -138,7 +138,7 @@
       <hr/>
 
       <p>
-        <img src="./assets/images/RWTH_Logo_3.svg.png" alt="RWTH Logo" width="135"/>
+        <img src="{{ '/assets/images/RWTH_Logo_3.svg.png' | relative_url }}" alt="RWTH Logo" width="135"/>
       </p>
 
       <p><strong>RWTH Aachen University</strong> BSc Computer Science<br/>
