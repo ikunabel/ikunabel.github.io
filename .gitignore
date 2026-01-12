@@ -15,3 +15,6 @@ vendor/bundle/
 
 # OS files
 .DS_Store
+
+# Other
+MyJournal.md
