@@ -1,7 +1,7 @@
 <div style="max-width: 2000px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
 
   <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 2em;">
-    <img src="./assets/images/cjdh_busking.jpeg" alt="Ábel Ilyés-Kun" width="220" 
+    <img src="./assets/images/DSC_4601_Bewerbung.jpg" alt="Ábel Ilyés-Kun" width="220" 
          style="border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <div style="margin-left: 20px;">
       <p>
