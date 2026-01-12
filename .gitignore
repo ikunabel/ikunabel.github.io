@@ -1,0 +1,17 @@
+# Jekyll build output
+_site/
+
+# Jekyll caches
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler vendor dir
+vendor/
+vendor/bundle/
+
+# Ruby artifacts
+*.gem
+
+# OS files
+.DS_Store
