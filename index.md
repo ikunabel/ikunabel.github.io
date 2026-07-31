@@ -113,7 +113,7 @@
     .video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
 
     /* Thumbnail fallback for blocked embeds */
-    .video-thumb { position: relative; width: 100%; aspect-ratio: 16 / 9; margin-top: 8px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: #000; display: block; }
+    .video-thumb { position: relative; width: 100%; aspect-ratio: 16 / 9; margin-top: 8px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: #000; display: block; cursor: pointer; }
     .video-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .video-thumb::after { content: '▶'; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 28px; line-height: 1; background: rgba(0,0,0,0.45); width: 64px; height: 64px; border-radius: 50%; display: grid; place-items: center; }
     .video-thumb:hover::after { background: rgba(0,0,0,0.6); }
@@ -359,19 +359,47 @@
       <div class="perf-grid">
         <div class="perf-card">
           <h3>Cafe Dream performance</h3>
-          <a class="video-thumb" href="https://www.youtube.com/watch?v=KJfYqBJzVuc" target="_blank" rel="noopener" aria-label="Open Cafe Dream performance on YouTube in a new tab">
+          <div class="video-thumb" data-yt-id="KJfYqBJzVuc" role="button" tabindex="0" aria-label="Play Cafe Dream performance">
             <img src="https://img.youtube.com/vi/KJfYqBJzVuc/hqdefault.jpg" alt="Cafe Dream performance thumbnail" loading="lazy"/>
-          </a>
+          </div>
           <p>I played “Beautiful Love”.</p>
         </div>
         <div class="perf-card">
           <h3>KAIST winter performance</h3>
-          <a class="video-thumb" href="https://www.youtube.com/watch?v=9AuTRtL2spo" target="_blank" rel="noopener" aria-label="Open KAIST winter performance on YouTube in a new tab">
+          <div class="video-thumb" data-yt-id="9AuTRtL2spo" role="button" tabindex="0" aria-label="Play KAIST winter performance">
             <img src="https://img.youtube.com/vi/9AuTRtL2spo/hqdefault.jpg" alt="KAIST winter performance thumbnail" loading="lazy"/>
-          </a>
+          </div>
           <p>I played “Spain”, “How Deep Is the Ocean?”, and “September”. I also edited and color-graded the video.</p>
         </div>
+        <div class="perf-card">
+          <h3>Performance</h3>
+          <div class="video-thumb" data-yt-id="WqgTwSP7Ezk" role="button" tabindex="0" aria-label="Play performance video">
+            <img src="https://img.youtube.com/vi/WqgTwSP7Ezk/hqdefault.jpg" alt="Performance thumbnail" loading="lazy"/>
+          </div>
+          <p></p>
+        </div>
       </div>
+
+      <script>
+        document.querySelectorAll('.video-thumb[data-yt-id]').forEach(function (el) {
+          function play() {
+            var id = el.getAttribute('data-yt-id');
+            var wrap = document.createElement('div');
+            wrap.className = 'video-embed';
+            var iframe = document.createElement('iframe');
+            iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
+            iframe.title = 'YouTube video player';
+            iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+            iframe.allowFullscreen = true;
+            wrap.appendChild(iframe);
+            el.replaceWith(wrap);
+          }
+          el.addEventListener('click', play);
+          el.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); play(); }
+          });
+        });
+      </script>
 
 
       <br/><br/>
