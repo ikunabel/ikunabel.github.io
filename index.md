@@ -139,6 +139,14 @@
     .perf-card:hover { transform: translateY(-4px); box-shadow: 0 10px 20px rgba(0,0,0,0.12); }
     .perf-card h3 { margin: 0 0 6px 0; font-size: 1.05rem; }
 
+    /* Stack tiles */
+    .stack-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+    .stack-card { background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 16px 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: transform 160ms ease, box-shadow 160ms ease; }
+    .stack-card:hover { transform: translateY(-4px); box-shadow: 0 10px 20px rgba(0,0,0,0.12); }
+    .stack-card h3 { margin: 0 0 8px 0; font-size: 1.05rem; }
+    .stack-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .stack-tag { background: #f0f7ff; color: #0366d6; border: 1px solid #cde0ff; border-radius: 9999px; padding: 4px 10px; font-size: 0.85rem; font-weight: 600; }
+
     /* Make the Jekyll (Cayman) header much shorter */
     .page-header {
       padding-top: 16px !important;
@@ -155,9 +163,8 @@
       <a href="#projects">Projects</a>
       <a href="#work-experience">Work</a>
       <a href="#education">Education</a>
-      <a href="#performances">Performances</a>
-      <a href="#interests">Interests</a>
-      <a href="#friends">Check out my friends</a>
+      <a href="#performances">Music</a>
+      <a href="#friends">Friends</a>
     </div>
   </nav>
 
@@ -182,8 +189,14 @@
   </div>
 
   <div style="max-width: 900px; margin: 0 auto;">
-
+      
       <h1 id="news" style="scroll-margin-top: 80px;">News</h1>
+      <div class="news-grid">
+        <div class="news-card">
+          <div class="news-date">[June 2026]</div>
+          <div class="news-body">I participated at the first <a href="https://munichmusiclabs.com/events/hackatune-2026/" target="_blank">Hackatune</a> at TUM.</div>
+        </div>
+
       <div class="news-grid">
         <div class="news-card">
           <div class="news-date">[November 2025]</div>
@@ -376,17 +389,50 @@
 
       <h1 id="stack" style="scroll-margin-top: 80px;">Programming Stack</h1>
 
-      <p><strong>Main Languages</strong><br/>
-      Python, Java</p>
+      <div class="stack-grid">
+        <div class="stack-card">
+          <h3>Main Languages</h3>
+          <div class="stack-tags">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Java</span>
+          </div>
+        </div>
 
-      <p><strong>Project Experience in</strong><br/>
-      Bash, C, C++, C#, SQL</p>
+        <div class="stack-card">
+          <h3>Project Experience in</h3>
+          <div class="stack-tags">
+            <span class="stack-tag">Bash</span>
+            <span class="stack-tag">C</span>
+            <span class="stack-tag">C++</span>
+            <span class="stack-tag">C#</span>
+            <span class="stack-tag">SQL</span>
+          </div>
+        </div>
 
-      <p><strong>Frameworks</strong><br/>
-      PyTorch, Librosa, NumPy, SciPy, Pandas, Matplotlib, Seaborn</p>
+        <div class="stack-card">
+          <h3>Frameworks</h3>
+          <div class="stack-tags">
+            <span class="stack-tag">PyTorch</span>
+            <span class="stack-tag">Librosa</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">SciPy</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">Matplotlib</span>
+            <span class="stack-tag">Seaborn</span>
+          </div>
+        </div>
 
-      <p><strong>Tools &amp; Systems</strong><br/>
-      Linux, Git, Slurm, Jupyter, Unity</p>
+        <div class="stack-card">
+          <h3>Tools &amp; Systems</h3>
+          <div class="stack-tags">
+            <span class="stack-tag">Linux</span>
+            <span class="stack-tag">Git</span>
+            <span class="stack-tag">Slurm</span>
+            <span class="stack-tag">Jupyter</span>
+            <span class="stack-tag">Unity</span>
+          </div>
+        </div>
+      </div>
 
 
       <br/><br/>
@@ -447,14 +493,7 @@
       <br/><br/>
 
 
-      <h1 id="interests" style="scroll-margin-top: 80px;">Interests</h1>
-      <p>Jazz piano, classical piano, transcribing music, K-pop, video editing, psychology,
-        football, table tennis, tennis, running
-      </p>
-
-      <br/><br/>
-
-      <h1 id="friends" style="scroll-margin-top: 80px;">Check out my friends</h1>
+      <h1 id="friends" style="scroll-margin-top: 80px;">Check out my Friends</h1>
       <p>Meet my mentor <a href="https://yuanjiayiy.github.io/" target="_blank" rel="noopener">Carrie Yuan</a>.</p>
 
   </div>
