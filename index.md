@@ -40,7 +40,7 @@
     /* Projects grid */
     .project-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: 1fr; /* stack for wide, horizontal cards */
       gap: 16px;
     }
     .project-card {
@@ -50,14 +50,22 @@
       padding: 16px 18px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.06);
       transition: transform 160ms ease, box-shadow 160ms ease;
-      display: block;
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
     }
     .project-card:hover {
       transform: translateY(-4px);
       box-shadow: 0 10px 20px rgba(0,0,0,0.12);
     }
-    .project-card h3 { margin-top: 0; }
-    .project-card img { max-width: 100%; height: auto; border-radius: 8px; }
+    .project-thumb { width: 220px; aspect-ratio: 4 / 3; flex-shrink: 0; border-radius: 8px; overflow: hidden; background: #f6f8fa; }
+    .project-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .project-body { flex: 1; min-width: 0; }
+    .project-body h3 { margin: 0 0 6px 0; }
+    @media (max-width: 620px) {
+      .project-card { flex-direction: column; align-items: flex-start; }
+      .project-thumb { width: 100%; aspect-ratio: 16 / 9; }
+    }
 
     /* Education grid */
     .edu-grid {
@@ -195,65 +203,82 @@
 
       <div class="project-grid">
         <div class="project-card">
-          <h3>🎹 Real-time Human-AI Improvisation over Jazz Standards</h3>
-          <p><em>Fall 2025</em></p>
-          <p>
-            I am currently pursuing my master’s thesis at the Chair for Artificial Intelligence Methodology at RWTH Aachen, exploring real-time human-AI musical interaction on a "Yamaha Disklavier" MIDI keyboard. The goal is to fine-tune a chord accompaniment agent with reinforcement learning to generate musically sensible chords in response to a melody played by a human performer. The system aims to enable engaging jam sessions over jazz standards by reharmonizing the performer’s melody and offering multiple harmonic alternatives through an interactive user interface.
-          </p>
+          <div class="project-thumb">
+            <img src="{{ '/assets/images/realjam_kawai.jpg' | relative_url }}" alt="Real-time Human-AI Improvisation"/>
+          </div>
+          <div class="project-body">
+            <h3>🎹 Real-time Human-AI Improvisation over Jazz Standards</h3>
+            <p><em>Fall 2025</em></p>
+            <p>
+              I am currently pursuing my master’s thesis at the Chair for Artificial Intelligence Methodology at RWTH Aachen, exploring real-time human-AI musical interaction on a "Yamaha Disklavier" MIDI keyboard. The goal is to fine-tune a chord accompaniment agent with reinforcement learning to generate musically sensible chords in response to a melody played by a human performer. The system aims to enable engaging jam sessions over jazz standards by reharmonizing the performer’s melody and offering multiple harmonic alternatives through an interactive user interface.
+            </p>
+          </div>
         </div>
 
         <div class="project-card">
-          <h3>🎹 Generating Piano Music with Transformers: A Comparative Study of Scale, Data and Metrics</h3>
-          <p><em>Summer 2025</em></p>
-          <p>
-            <img src="{{ '/assets/images/Confusion_Matrix.png' | relative_url }}" alt="Confusion Matrix" width="250"/>
-          </p>
-          <p>
-            As part of a university lab project, I worked on generating MIDI piano performances with Transformers. We systematically compared different datasets, model architectures, model sizes, and training strategies to evaluate their impact on generative quality. To support model development and evaluation, we examined a range of quantitative metrics and analyzed how well they correlate with human judgment collected through listening studies. Our best-performing model, a 950M-parameter transformer trained on 80K MIDI files from diverse genres, produces outputs that are often rated as human-composed in a Turing-style listening survey.
-          </p>
+          <div class="project-thumb">
+            <img src="{{ '/assets/images/Confusion_Matrix.png' | relative_url }}" alt="Confusion Matrix"/>
+          </div>
+          <div class="project-body">
+            <h3>🎹 Generating Piano Music with Transformers: A Comparative Study of Scale, Data and Metrics</h3>
+            <p><em>Summer 2025</em></p>
+            <p>
+              As part of a university lab project, I worked on generating MIDI piano performances with Transformers. We systematically compared different datasets, model architectures, model sizes, and training strategies to evaluate their impact on generative quality. To support model development and evaluation, we examined a range of quantitative metrics and analyzed how well they correlate with human judgment collected through listening studies. Our best-performing model, a 950M-parameter transformer trained on 80K MIDI files from diverse genres, produces outputs that are often rated as human-composed in a Turing-style listening survey.
+            </p>
+          </div>
         </div>
 
         <div class="project-card">
-          <h3>VR Game for Learning Git</h3>
-          <p><em>Summer 2025</em></p>
-          <p>
-            <img src="{{ '/assets/images/Git_Immersive_Learning_Presentation.png' | relative_url }}" alt="VR_Git" width="350"/>
-          </p>
-          <p>
-            I co-developed a 3D VR game in Unity to teach git in an interactive, hands-on environment. Branches are represented as color-coded shelves, and files as items that can be put on the shelves (e.g., cubes for .py, books for .docx), allowing students to visualize and experiment with core git commands like add, commit, merge, and push. The user can trigger git commands from a UI panel with the VR controller and observe the effect in the immersive environment. The game provides a risk-free space to build mental models, reinforce correct workflows, and reduce fear of mistakes, preparing learners for real-world git projects.
-          </p>
+          <div class="project-thumb">
+            <img src="{{ '/assets/images/Git_Immersive_Learning_Presentation.png' | relative_url }}" alt="VR_Git"/>
+          </div>
+          <div class="project-body">
+            <h3>VR Game for Learning Git</h3>
+            <p><em>Summer 2025</em></p>
+            <p>
+              I co-developed a 3D VR game in Unity to teach git in an interactive, hands-on environment. Branches are represented as color-coded shelves, and files as items that can be put on the shelves (e.g., cubes for .py, books for .docx), allowing students to visualize and experiment with core git commands like add, commit, merge, and push. The user can trigger git commands from a UI panel with the VR controller and observe the effect in the immersive environment. The game provides a risk-free space to build mental models, reinforce correct workflows, and reduce fear of mistakes, preparing learners for real-world git projects.
+            </p>
+          </div>
         </div>
 
         <div class="project-card">
-          <h3>Mamba State-space Model</h3>
-          <p><em>Summer 2024</em></p>
-          <p>
-            Over the past summer at my home university, I participated in a research seminar at the Machine Learning and Reasoning chair involving Mamba, a recent state-space model. The experience sparked my interest in continuing to explore state-space models on music data. Since Mamba-variants can process extremely long sequences more efficiently than Transformers, it can be interesting to see how they handle long temporal dependencies in music data.
-          </p>
+          <div class="project-body">
+            <h3>Mamba State-space Model</h3>
+            <p><em>Summer 2024</em></p>
+            <p>
+              Over the past summer at my home university, I participated in a research seminar at the Machine Learning and Reasoning chair involving Mamba, a recent state-space model. The experience sparked my interest in continuing to explore state-space models on music data. Since Mamba-variants can process extremely long sequences more efficiently than Transformers, it can be interesting to see how they handle long temporal dependencies in music data.
+            </p>
+          </div>
         </div>
 
         <div class="project-card">
-          <h3>Bachelor's Thesis at Institute for Computational and Systems Neuroscience</h3>
-          <p><em>October 2022 – May 2023</em></p>
-          <p>
-            The goal for this project was to optimize the hyper-parameters of a spiking neural network model with Optuna. The work involved parallel computation on the JURECA cluster and experimentation with sampling algorithms (TPE, random).
-          </p>
+          <div class="project-body">
+            <h3>Bachelor's Thesis at Institute for Computational and Systems Neuroscience</h3>
+            <p><em>October 2022 – May 2023</em></p>
+            <p>
+              The goal for this project was to optimize the hyper-parameters of a spiking neural network model with Optuna. The work involved parallel computation on the JURECA cluster and experimentation with sampling algorithms (TPE, random).
+            </p>
+          </div>
         </div>
 
         <div class="project-card">
-          <h3>🚙 Lab Course at Cyber-Physical Mobility Lab</h3>
-          <p><em>October 2021 – February 2022</em></p>
-          <p>
-            My group implemented trajectory planning and collision avoidance for model vehicles in C++. The workflow was organized in team of six with Scrum and Git.
-          </p>
+          <div class="project-body">
+            <h3>🚙 Lab Course at Cyber-Physical Mobility Lab</h3>
+            <p><em>October 2021 – February 2022</em></p>
+            <p>
+              My group implemented trajectory planning and collision avoidance for model vehicles in C++. The workflow was organized in team of six with Scrum and Git.
+            </p>
+          </div>
         </div>
 
         <div class="project-card">
-          <h3>🎵 Computer-generated Music</h3>
-          <p><em>Summer 2020</em></p>
-          <p>
-            During my bachelor's degree at RWTH Aachen University, I did a seminar on computer-generated music, where I covered recent neural-network-based approaches like Google Magenta or the Bachbot, also discussing the LZ compression algorithm within the OpenMusic software.
-          </p>
+          <div class="project-body">
+            <h3>🎵 Computer-generated Music</h3>
+            <p><em>Summer 2020</em></p>
+            <p>
+              During my bachelor's degree at RWTH Aachen University, I did a seminar on computer-generated music, where I covered recent neural-network-based approaches like Google Magenta or the Bachbot, also discussing the LZ compression algorithm within the OpenMusic software.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -354,7 +379,7 @@
       <p>
         During my exchange semester at KAIST, I joined “창작동화” Jazz Band as a keyboardist. We
         performed at multiple campus events and had a featured performance at a jazz bar in Seoul.
-        Here are a couple of recordings:
+        In my freetime, I like to practice improvisation and sometimes I try to compose short pieces. 
       </p>
       <div class="perf-grid">
         <div class="perf-card">
@@ -374,9 +399,9 @@
         <div class="perf-card">
           <h3>Performance</h3>
           <div class="video-thumb" data-yt-id="WqgTwSP7Ezk" role="button" tabindex="0" aria-label="Play performance video">
-            <img src="https://img.youtube.com/vi/WqgTwSP7Ezk/hqdefault.jpg" alt="Performance thumbnail" loading="lazy"/>
+            <img src="https://img.youtube.com/vi/WqgTwSP7Ezk/hqdefault.jpg" alt="A short composition thumbnail" loading="lazy"/>
           </div>
-          <p></p>
+          <p>I composed a short piece starting with two voices that form a 2-5-1 progression and gradually becoming more free and jazzy. </p>
         </div>
       </div>
 
