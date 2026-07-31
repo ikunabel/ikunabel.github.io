@@ -1,3 +1,14 @@
 title: Ábel Ilyés-Kun
 description: "CS Graduate | AI for Music | RWTH Aachen | KAIST"
 theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+exclude:
+  - .venv
+  - vendor
+  - Gemfile
+  - Gemfile.lock
