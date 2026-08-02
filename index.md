@@ -130,7 +130,7 @@
     .video-thumb:hover::after { background: rgba(0,0,0,0.6); }
 
     /* Perfect circular profile avatar */
-    .profile-photo { width: 220px; aspect-ratio: 1 / 1; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); flex-shrink: 0; }
+    .profile-photo { width: 176px; aspect-ratio: 1 / 1; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); flex-shrink: 0; }
     .profile-photo img { width: 100%; height: 100%; object-fit: cover; display: block; object-position: 50% calc(50% + 20px); }
 
     /* Performance tiles */
@@ -176,8 +176,7 @@
       <p>
         I am Ábel, a computer science graduate from RWTH Aachen University.
         My academic interests include AI for music generation, natural language processing, and computational neuroscience.
-        Beyond my studies, I am passionate about playing the piano and enjoy transcribing recordings from my favorite musicians,
-        Brad Mehldau and Chick Corea.
+        Beyond my studies, I am passionate about playing the piano and enjoy transcribing jazz recordings.
         <br/><br/>
         <a href="mailto:ikunabel@gmail.com">Email</a> |
         <a href="https://github.com/ikunabel" target="_blank">GitHub</a> |
@@ -219,7 +218,7 @@
 
       <div class="project-grid">
         <div class="project-card">
-          <h3>🎹 Real-time Human-AI Improvisation over Jazz Standards</h3>
+          <h3>Real-time Human-AI Improvisation over Jazz Standards</h3>
           <p><em>Winter 2025</em></p>
           <div class="project-row">
             <div class="project-thumb portrait">
@@ -234,7 +233,7 @@
         </div>
 
         <div class="project-card">
-          <h3>🎹 Generating Piano Music with Transformers: A Comparative Study of Scale, Data and Metrics</h3>
+          <h3>Generating Piano Music with Transformers: A Comparative Study of Scale, Data and Metrics</h3>
           <p><em>Summer 2025</em></p>
           <div class="project-row">
             <div class="project-thumb" style="aspect-ratio: 960 / 760;">
@@ -438,7 +437,7 @@
       <br/><br/>
 
 
-      <h1 id="performances" style="scroll-margin-top: 80px;">Performances</h1>
+      <h1 id="performances" style="scroll-margin-top: 80px;">Music</h1>
       <p>
         During my exchange semester at KAIST, I joined “창작동화” Jazz Band as a keyboardist. We
         performed at multiple campus events and had a featured performance at a jazz bar in Seoul.
@@ -460,7 +459,7 @@
           <p>I played “Spain”, “How Deep Is the Ocean?”, and “September”. I also edited and color-graded the video.</p>
         </div>
         <div class="perf-card">
-          <h3>Performance</h3>
+          <h3>Composition</h3>
           <div class="video-thumb" data-yt-id="WqgTwSP7Ezk" role="button" tabindex="0" aria-label="Play performance video">
             <img src="https://img.youtube.com/vi/WqgTwSP7Ezk/hqdefault.jpg" alt="A short composition thumbnail" loading="lazy"/>
           </div>
