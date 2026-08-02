@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: B.Sc. Computer Science | RWTH Aachen | KAIST | AI for Music
+subtitle: >-
+  B.Sc. Computer Science | RWTH Aachen | KAIST | AI for Music<br><span style="color: var(--global-theme-color);">abel.ilyes-kun@rwth-aachen.de</span>
 
 profile:
   align: right
