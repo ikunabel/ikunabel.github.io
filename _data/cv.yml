@@ -1,0 +1,58 @@
+cv:
+  name: Ábel Ilyés-Kun
+  label: CS Graduate | AI for Music
+  email: ikunabel@gmail.com
+  location: Aachen, Germany
+  image: ""
+  summary: Computer science graduate from RWTH Aachen University, interested in AI for music generation, natural language processing, and computational neuroscience.
+
+  social_networks:
+    - network: GitHub
+      username: ikunabel
+    - network: LinkedIn
+      username: "%C3%A1bel-ily%C3%A9s-kun-6350a3245"
+
+  sections:
+    Education:
+      - institution: RWTH Aachen University
+        location: Aachen, Germany
+        area: Computer Science
+        studyType: MSc
+        start_date: 2023-10
+        end_date: ""
+
+      - institution: KAIST
+        location: Daejeon, South Korea
+        area: Computer Science (Exchange)
+        studyType: MSc
+        start_date: 2024-09
+        end_date: 2024-12
+        highlights:
+          - Received the DUO-Korea Scholarship
+
+      - institution: RWTH Aachen University
+        location: Aachen, Germany
+        area: Computer Science
+        studyType: BSc
+        start_date: 2019-10
+        end_date: 2023-06
+
+      - institution: Goethe Gymnasium Bad Ems
+        area: A levels (Abitur)
+        studyType: Abitur
+        courses: "Majors: English, Mathematics, Physics"
+        highlights:
+          - DPG Abitur Prize in Physics
+
+    Experience:
+      - company: Research Group for Programming Languages and Verification, RWTH Aachen
+        position: Tutor
+        start_date: 2021-10
+        end_date: 2023-03
+        summary: I tutored students in Software Development (Java), Functional Programming (Haskell), Logic Programming (Prolog) and software verification, conducted weekly classes and assessed coding assignments.
+
+      - company: BWI GmbH
+        position: Intern
+        start_date: 2020-03
+        end_date: 2020-03
+        summary: I was introduced to current JIRA projects and gained an overview of project management and project organization in Scrum.

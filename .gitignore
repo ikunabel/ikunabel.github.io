@@ -21,5 +21,4 @@ vendor/bundle/
 
 # Other
 MyJournal.md
-Gemfile
-Gemfile.lock
+node_modules/
