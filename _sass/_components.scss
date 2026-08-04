@@ -166,6 +166,7 @@ ul.task-list input[type="checkbox"] {
     .card-img-top {
       height: 200px;
       object-fit: contain;
+      object-position: top;
       background: var(--global-card-bg-color, #fff);
     }
   }
