@@ -25,5 +25,5 @@ latest_posts:
   limit: 3
 ---
 
-Hi, I am Ábel, a computer science graduate from RWTH Aachen University. I research human-AI interaction for music that preserves human agency. My vision is to build interactive systems that democratize instrument learning, help musicians overcome learning plateaus, and explore new musical styles. Beyond my studies, I like to play the piano and transcribe jazz recordings.
+Hi, I am Ábel, a computer science graduate from RWTH Aachen University. I research human-AI interaction for music that preserves human agency. My vision is to build interactive systems that democratize instrument learning, help musicians overcome learning plateaus, and explore new musical styles. Beyond my studies, I like to play the piano and transcribe jazz recordings. Please feel free to reach out if you want to chat about research, potential collaborations, or anything else:
 

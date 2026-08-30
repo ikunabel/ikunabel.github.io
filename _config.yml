@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ábel
 middle_name: Ilyés-
 last_name: Kun
-contact_note: >
-  Please feel free to reach out if you want to chat about research, potential collaborations, or anything else!
+contact_note: # moved into the about-page intro paragraph
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   CS Graduate | AI for Music | RWTH Aachen | KAIST
 footer_text: >
