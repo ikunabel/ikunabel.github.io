@@ -1,11 +1,18 @@
 ---
 layout: page
-title: Real-time Human-AI Improvisation over Jazz Standards
+title: Real-time Human-AI Improvisation on the Yamaha Disklavier
 description: Master's thesis at the Chair for AI Methodology, RWTH Aachen
-img: assets/img/kawai_realjam.jpg
+img: assets/img/disklavier_improv_thumb.jpg
 importance: 0
 category: Master's
+permalink: /projects/real-time-human-ai-improvisation-on-the-yamaha-disklavier/
 ---
+
+<div class="row justify-content-center">
+    <div class="col-12 mt-3 mt-md-0">
+        {% include video.liquid path="assets/videos/disklavier_improv_small.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
 
 <i class="fa-brands fa-github"></i> [View on GitHub](https://github.com/ikunabel/realchords-pytorch)
 
@@ -29,11 +36,5 @@ I am currently pursuing my master's thesis under Prof. Holger Hoos, exploring re
 <div class="row justify-content-center">
     <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/tsne_by_dataset.png" title="t-SNE by dataset" caption="Different datasets cover different areas (musical styles) in the t-SNE space" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-<div class="row justify-content-center">
-    <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/kawai_realjam.jpg" title="Real-time Human-AI Improvisation" caption="I am jamming with the model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
